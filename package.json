@@ -1,0 +1,21 @@
+{
+    "name": "emma",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint src/js",
+        "start": "node ./bin/ww",
+        "dev": "DEBUG=Emma:* & nodemon ./bin/ww"
+    },
+    "author": "Emma R",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.12.0",
+        "nodemon": "^2.0.15"
+    }
+}
